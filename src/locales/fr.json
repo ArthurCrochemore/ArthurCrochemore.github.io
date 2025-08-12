@@ -1,0 +1,131 @@
+{
+  "header": {
+    "figmaAlt": "GitHub Logo",
+    "githubAlt": "GitHub Logo",
+    "icon": "🇺🇸"
+  },
+  "home": {
+    "title": "Arthur Crochemore",
+    "subtitle": "Ingénieur Fullstack Multiplateforme QA & Architecture"
+  },
+  "description": {
+    "bloc1": {
+      "title": "Qui je suis",
+      "subtitle": "Étudiant à Polytech Tours en Informatique, je viens d'achever un double diplôme à l'Université de Sherbrooke. Passionné de développement logiciel, je souhaite m'orienter vers le DevOps, l'assurance qualité ou la gestion de projet dans un cadre stimulant."
+    },
+    "bloc2": {
+      "title": "Ce que je recherche",
+      "subtitle": "Je cherche dès janvier 2026 mon premier emploi en France ou en Europe, au sein d'une équipe bienveillante, innovante et engagée, pour continuer de développer dans un environnement stimulant, aligné avec mes valeurs, et avoir de l'impact."
+    }
+  },
+  "experiences": {
+    "professional": {
+      "experience1": {
+        "title": "Amundi Montréal",
+        "subtitle": "Stage de fin d'études",
+        "startDate": "2025-05",
+        "endDate": "2025-11",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/"
+      },
+      "experience2": {
+        "title": "Optimum Circle",
+        "subtitle": "Stage assistant ingénieur",
+        "startDate": "2024-06",
+        "endDate": "2024-08",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/"
+      },
+      "experience3": {
+        "title": "Réseaux Environnements",
+        "subtitle": "Stage ouvrier",
+        "startDate": "2021-06",
+        "endDate": "2021-07",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/"
+      }
+    },
+    "academic": {
+      "experience1": {
+        "title": "Université de Sherbrooke",
+        "subtitle": "Maîtrise en informatique",
+        "startDate": "2025-08",
+        "endDate": "2025-12",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/"
+      },
+      "experience2": {
+        "title": "Polytech Tours",
+        "subtitle": "Cycle ingénieur",
+        "startDate": "2022-09",
+        "endDate": "2025-12",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/"
+      },
+      "experience3": {
+        "title": "Polytech Lille",
+        "subtitle": "Peip Lille",
+        "startDate": "2020-09",
+        "endDate": "2022-07",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/"
+      }
+    }
+  },
+  "projects": {
+    "list": [
+      {
+        "title": "Cybersécurité",
+        "subtitle": "Projet de recherche",
+        "langage": ""
+      },
+      {
+        "title": "Commande Gestuelle",
+        "subtitle": "Projet de fin d'études",
+        "langage": "C++ / Qt"
+      },
+      {
+        "title": "KazaKlub",
+        "subtitle": "Projet de stage",
+        "langage": "Symfony"
+      },
+      {
+        "title": "Application Covoiturage",
+        "subtitle": "Projet de fin d'études",
+        "langage": "Vue.Js / Laravel"
+      },
+      {
+        "title": "Gestion de Stock",
+        "subtitle": "Projet de fin d'études",
+        "langage": "C# / .Net"
+      },
+      {
+        "title": "Optimisation Discrète",
+        "subtitle": "Projet de recherche",
+        "langage": "C++"
+      },
+      {
+        "title": "Qualité Logicielle",
+        "subtitle": "Projet de groupe",
+        "langage": "Java / Maven"
+      },
+      {
+        "title": "Simulation Hopital",
+        "subtitle": "Premier projet en autonomie",
+        "langage": "Java / NetBeans"
+      },
+      {
+        "title": "Projet Java",
+        "subtitle": "Projet tutoré",
+        "langage": "Java / Maven"
+      }
+    ]
+  },
+  "footer": {
+    "poweredBy": "Propulsé par Vue.Js",
+    "contact": {
+      "gmail": {
+        "title": "Gmail",
+        "url": "mailto:arthur.crochem@gmail.com"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203"
+      }
+    }
+  }
+}

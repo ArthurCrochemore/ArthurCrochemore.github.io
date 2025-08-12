@@ -1,0 +1,34 @@
+@import "../variables.css";
+
+.header.component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  margin-bottom: 60px;
+
+  .model {
+    position: absolute;
+    left: 0;
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+  }
+
+  .langages.button {
+    position: absolute;
+    right: 0;
+  }
+}

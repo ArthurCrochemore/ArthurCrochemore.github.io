@@ -1,0 +1,63 @@
+@import "../variables.css";
+
+.experience {
+  position: relative;
+  background-color: var(--primary-200);
+  border-radius: 10px;
+  padding: 30px 20px;
+
+  /* border: 1px dashed var(--light-border); */
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23F0F0F0FF' stroke-width='1' stroke-dasharray='10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+
+    .title {
+      color: var(--light-text-title);
+      margin-bottom: 10px;
+      font-weight: var(--weight-bold);
+    }
+
+    .subtitle {
+      color: var(--light-text);
+      opacity: 0.7;
+      font-weight: var(--weight-regular);
+    }
+  }
+
+  .card-divider {
+    color: var(--grey-600);
+    opacity: 0.4;
+    margin: 15px 0;
+  }
+
+  .card-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    .button {
+      span {
+        color: var(--primary-200);
+        line-height: var(--font-md);
+      }
+
+      &:hover span {
+        color: var(--primary-100);
+      }
+    }
+
+    .period > p.date {
+      color: var(--light-text-title);
+      text-align: right;
+      font-weight: var(--weight-bold);
+      margin: 0;
+    }
+  }
+}

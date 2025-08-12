@@ -1,0 +1,65 @@
+@import "../variables.css";
+
+.skills {
+  height: 170px;
+
+  .skills-container {
+    display: flex;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    .scroll-content {
+      display: flex;
+      height: 110px;
+      flex-shrink: 0;
+      animation: move 25s linear infinite;
+      overflow: visible;
+
+      .icon-wrapper {
+        position: relative;
+        width: 110px;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20px;
+
+        .icon {
+          max-height: 110px;
+          max-width: 110px;
+          object-fit: contain;
+        }
+
+        .tooltiptext {
+          display: none;
+          width: 120px;
+          background-color: var(--grey-700);
+          color: var(--text-title);
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+          bottom: 0;
+          transform: translateY(30px);
+
+          position: absolute;
+        }
+
+        &:hover .tooltiptext {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

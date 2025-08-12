@@ -1,0 +1,15 @@
+@import "../variables.css";
+
+.description.component {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1080px) {
+    & {
+      flex-direction: row;
+    }
+  }
+}
