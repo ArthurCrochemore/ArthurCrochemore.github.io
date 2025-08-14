@@ -8,7 +8,7 @@
   opacity: 0.6;
   margin-top: 30px;
   margin-bottom: 0;
-  
+
   /* border: 1px dashed var(--light-border); */
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='%23F0F0F0FF' stroke-width='1' stroke-dasharray='10' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 
@@ -61,10 +61,10 @@
       margin: 0;
     }
   }
+}
 
-  &.selected {
-    opacity: 1;
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
+.carousel__slide.carousel__slide--visible.carousel__slide--active .project {
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 30px;
 }

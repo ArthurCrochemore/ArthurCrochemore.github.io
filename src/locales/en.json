@@ -71,27 +71,32 @@
       {
         "title": "Cybersecurity",
         "subtitle": "Research Project",
-        "langage": ""
+        "langage": "",
+        "url": "https://docs.google.com/document/d/1F1tvf01nFmhPcKEDT9nv5o8P576NNxlLFXyao1M2zQ0/edit?usp=embed_facebook"
       },
       {
         "title": "Gesture Control",
         "subtitle": "Final Year Project",
-        "langage": "C++ / Qt"
+        "langage": "C++ / Qt",
+        "url": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
       },
       {
         "title": "KazaKlub",
         "subtitle": "Internship Project",
-        "langage": "Symfony"
+        "langage": "Symfony",
+        "url": "https://kazaklub.com/"
       },
       {
         "title": "Carpooling Application",
         "subtitle": "Final Year Project",
-        "langage": "Vue.Js / Laravel"
+        "langage": "Vue.Js / Laravel",
+        "url": "https://github.com/ArthurCrochemore/Application-Covoiturage"
       },
       {
         "title": "Stock Management",
         "subtitle": "Final Year Project",
-        "langage": "C# / .Net"
+        "langage": "C# / .Net",
+        "url": "https://github.com/ChakSem/Tp-Plateformes-NET"
       },
       {
         "title": "Discrete Optimization",
@@ -101,17 +106,20 @@
       {
         "title": "Software Quality",
         "subtitle": "Group Project",
-        "langage": "Java / Maven"
+        "langage": "Java / Maven",
+        "url": "https://github.com/nightyday/Prj_Qualit-_logiciel"
       },
       {
         "title": "Hospital Simulation",
         "subtitle": "First Independent Project",
-        "langage": "Java / NetBeans"
+        "langage": "Java / NetBeans",
+        "url": "https://github.com/ArthurCrochemore/ProjetSimulation"
       },
       {
         "title": "Java Project",
         "subtitle": "Tutored Project",
-        "langage": "Java / Maven"
+        "langage": "Java / Maven",
+        "url": "https://github.com/ArthurCrochemore/-Projet-Tutore-Java"
       }
     ]
   },

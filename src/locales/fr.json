@@ -71,47 +71,56 @@
       {
         "title": "Cybersécurité",
         "subtitle": "Projet de recherche",
-        "langage": ""
+        "langage": "",
+        "url": "https://docs.google.com/document/d/1F1tvf01nFmhPcKEDT9nv5o8P576NNxlLFXyao1M2zQ0/edit?usp=embed_facebook"
       },
       {
         "title": "Commande Gestuelle",
         "subtitle": "Projet de fin d'études",
-        "langage": "C++ / Qt"
+        "langage": "C++ / Qt",
+        "url": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
       },
       {
         "title": "KazaKlub",
         "subtitle": "Projet de stage",
-        "langage": "Symfony"
+        "langage": "Symfony",
+        "url": "https://kazaklub.com/"
       },
       {
         "title": "Application Covoiturage",
         "subtitle": "Projet de fin d'études",
-        "langage": "Vue.Js / Laravel"
+        "langage": "Vue.Js / Laravel",
+        "url": "https://github.com/ArthurCrochemore/Application-Covoiturage"
       },
       {
         "title": "Gestion de Stock",
         "subtitle": "Projet de fin d'études",
-        "langage": "C# / .Net"
+        "langage": "C# / .Net",
+        "url": "https://github.com/ChakSem/Tp-Plateformes-NET"
       },
       {
         "title": "Optimisation Discrète",
         "subtitle": "Projet de recherche",
-        "langage": "C++"
+        "langage": "C++",
+        "url": "https://github.com/ChakSem/Optimistion-Discrete"
       },
       {
         "title": "Qualité Logicielle",
         "subtitle": "Projet de groupe",
-        "langage": "Java / Maven"
+        "langage": "Java / Maven",
+        "url": "https://github.com/nightyday/Prj_Qualit-_logiciel"
       },
       {
         "title": "Simulation Hopital",
         "subtitle": "Premier projet en autonomie",
-        "langage": "Java / NetBeans"
+        "langage": "Java / NetBeans",
+        "url": "https://github.com/ArthurCrochemore/ProjetSimulation"
       },
       {
         "title": "Projet Java",
         "subtitle": "Projet tutoré",
-        "langage": "Java / Maven"
+        "langage": "Java / Maven",
+        "url": "https://github.com/ArthurCrochemore/-Projet-Tutore-Java"
       }
     ]
   },

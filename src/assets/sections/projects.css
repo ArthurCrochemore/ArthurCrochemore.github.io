@@ -5,21 +5,13 @@
   background-color: var(--primary-500);
   border-radius: 10px;
   padding: 90px 0px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  justify-content: center;
 
   margin-bottom: 60px;
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .row::-webkit-scrollbar {
+  .carousel__pagination {
     display: none;
   }
 }

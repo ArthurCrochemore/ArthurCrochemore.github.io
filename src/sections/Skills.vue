@@ -2,23 +2,23 @@
 <template>
   <section class="skills component">
     <div class="skills-container scroll">
+      <div class="filter-left">
+        <div class="solid-left"></div>
+        <div class="fade-left"></div>
+      </div>
+      <div class="filter-right">
+        <div class="fade-right"></div>
+        <div class="solid-right"></div>
+      </div>
       <div class="scroll-content">
         <div v-for="img in images" :key="img.src" class="icon-wrapper">
-          <img
-            :src="'skills/' + img.src"
-            :alt="img.alt"
-            class="icon"
-          />
+          <img :src="base + 'skills/' + img.src" :alt="img.alt" class="icon" />
           <span class="tooltiptext">{{ img.tooltip }}</span>
         </div>
       </div>
       <div class="scroll-content" aria-hidden="true">
         <div v-for="img in images" :key="img.src + '-dup'" class="icon-wrapper">
-          <img
-            :src="'skills/' + img.src"
-            :alt="img.alt"
-            class="icon"
-          />
+          <img :src="base + 'skills/' + img.src" :alt="img.alt" class="icon" />
           <span class="tooltiptext">{{ img.tooltip }}</span>
         </div>
       </div>
@@ -33,11 +33,12 @@ export default {
   data() {
     return {
       images: [],
+      base: import.meta.env.BASE_URL || "/",
     };
   },
   async mounted() {
     try {
-      const res = await fetch("/skills/list.json");
+      const res = await fetch(this.base + "skills/list.json");
       const data = await res.json();
       if (Array.isArray(data)) {
         this.images = data;
