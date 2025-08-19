@@ -1,0 +1,19 @@
+{
+  "name": "mon-app-vue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-i18n": "^9.14.0",
+    "vue3-carousel": "^0.2.12"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.x"
+  }
+}
