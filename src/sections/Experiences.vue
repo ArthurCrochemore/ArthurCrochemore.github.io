@@ -37,6 +37,7 @@
                   'experiences.professional.experience1.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.professional.experience1.url', ''),
               })
           "
         />
@@ -66,6 +67,7 @@
                   'experiences.academic.experience1.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.academic.experience1.url', ''),
               })
           "
         />
@@ -103,6 +105,7 @@
                   'experiences.professional.experience2.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.professional.experience2.url', ''),
               })
           "
         />
@@ -132,6 +135,7 @@
                   'experiences.academic.experience2.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.academic.experience2.url', ''),
               })
           "
         />
@@ -169,6 +173,7 @@
                   'experiences.professional.experience3.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.professional.experience3.url', ''),
               })
           "
         />
@@ -199,6 +204,7 @@
                   'experiences.academic.experience3.achievementsTitle',
                   ''
                 ),
+                url: $t('experiences.academic.experience3.url', ''),
               })
           "
         />

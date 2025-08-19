@@ -43,7 +43,7 @@
       <h3 class="links medium">{{ tm("experiences.links") }}</h3>
       <a
         class="school-link"
-        :href="githubUrl"
+        :href="url"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -69,6 +69,7 @@ const props = defineProps({
   missionsTitle: String,
   achievements: Array,
   achievementsTitle: String,
+  url: String,
 });
 
 const months = computed(() => {
