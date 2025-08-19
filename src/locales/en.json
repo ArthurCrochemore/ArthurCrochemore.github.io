@@ -1,0 +1,353 @@
+{
+  "header": {
+    "figmaAlt": "Figma Icon",
+    "githubAlt": "GitHub Icon",
+    "icon": "🇫🇷"
+  },
+  "home": {
+    "title": "Arthur Crochemore",
+    "subtitle": "Fullstack Multiplatform Engineer QA & Architecture",
+    "contact": {
+      "gmail": {
+        "title": "Write to me",
+        "url": "mailto:arthur.crochem@gmail.com"
+      },
+      "linkedin": {
+        "title": "Connect with me",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/?locale=en_US"
+      }
+    }
+  },
+  "description": {
+    "bloc1": {
+      "title": "Who I Am",
+      "subtitle": "A student at Polytech Tours in Computer Science, I have just completed a double degree at the University of Sherbrooke. Passionate about software development, I aim to specialize in DevOps, quality assurance, or project management in a stimulating environment."
+    },
+    "bloc2": {
+      "title": "What I Am Looking For",
+      "subtitle": "Starting in January 2026, I am seeking my first job in France or Europe, within a caring, innovative, and committed team, to continue developing in a stimulating environment aligned with my values and to make an impact."
+    }
+  },
+  "experiences": {
+    "detail": "Detail",
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "monthsShort": [
+      "Jan.",
+      "Feb.",
+      "Mar.",
+      "Apr.",
+      "May",
+      "Jun.",
+      "Jul.",
+      "Aug.",
+      "Sep.",
+      "Oct.",
+      "Nov.",
+      "Dec."
+    ],
+    "professional": {
+      "experience1": {
+        "title": "Amundi Montreal",
+        "subtitle": "Final Internship",
+        "startDate": "2025-05",
+        "endDate": "2025-11",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
+        "company": "Amundi Technology, Montreal (Canada)",
+        "location": "Montreal, Canada",
+        "missionsTitle": "Main missions",
+        "missions": [
+          "Set up automated front/back tests",
+          "Develop features: SSE, parsing, data modification",
+          "Collaborate with distributed teams (Montreal, Paris, Dublin)"
+        ],
+        "achievementsTitle": "Key achievements",
+        "achievements": [
+          "Created a Cypress library adapted to Amundi's frontend framework"
+        ]
+      },
+      "experience2": {
+        "title": "Optimum Circle",
+        "subtitle": "Assistant Engineer Internship",
+        "startDate": "2024-06",
+        "endDate": "2024-08",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
+        "company": "Optimum Circle, Caen (France)",
+        "location": "Caen, France",
+        "missionsTitle": "Main missions",
+        "missions": [
+          "Redesign the UI",
+          "Develop backend tools",
+          "Update the database"
+        ],
+        "achievementsTitle": "Key achievements",
+        "achievements": ["New landing page", "Set up a backoffice"],
+        "context": "As part of the KazaKlub project; a Symfony/PHP web application for house sharing among friends."
+      },
+      "experience3": {
+        "title": "Réseaux Environnements",
+        "subtitle": "Worker Internship",
+        "startDate": "2021-06",
+        "endDate": "2021-07",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
+        "company": "Réseaux Environnement",
+        "location": "Bréauté, France",
+        "missionsTitle": "Main missions",
+        "missions": [
+          "Observe and assist an electrician",
+          "Participate in a trenching project with a team"
+        ],
+        "achievementsTitle": "Key achievements",
+        "achievements": []
+      }
+    },
+    "academic": {
+      "experience1": {
+        "title": "University of Sherbrooke",
+        "subtitle": "Master's in Computer Science",
+        "startDate": "2025-08",
+        "endDate": "2025-12",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
+        "diploma": "Master",
+        "location": "Sherbrooke, Canada",
+        "contentTitle": "Main courses",
+        "content": [
+          "Real-time systems design",
+          "Object-oriented approaches",
+          "Project management",
+          "Learning techniques"
+        ],
+        "achievementsTitle": "Acquired skills",
+        "achievements": []
+      },
+      "experience2": {
+        "title": "Polytech Tours",
+        "subtitle": "Engineering Cycle",
+        "startDate": "2022-09",
+        "endDate": "2025-12",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
+        "diploma": "Engineering degree",
+        "location": "Tours, France",
+        "contentTitle": "Main topics",
+        "content": [
+          "Software engineering",
+          "Object-oriented approaches",
+          "Project management",
+          "Learning techniques"
+        ],
+        "achievementsTitle": "Acquired skills",
+        "achievements": []
+      },
+      "experience3": {
+        "title": "Polytech Lille",
+        "subtitle": "Peip Lille",
+        "startDate": "2020-09",
+        "endDate": "2022-07",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
+        "diploma": "Integrated preparatory class",
+        "location": "Villeneuve d'Ascq, France",
+        "contentTitle": "Main topics",
+        "content": [],
+        "achievementsTitle": "Acquired skills",
+        "achievements": []
+      }
+    },
+    "links": "Links :"
+  },
+  "projects": {
+    "detail": "Detail",
+    "list": [
+      {
+        "title": "Cybersecurity",
+        "subtitle": "Research Project",
+        "langage": "",
+        "period": "Sept. - Dec. 2024",
+        "team": "Pair",
+        "role": "Security Analyst",
+        "study": "University of Sherbrooke",
+        "details": "Simulation of an attack to create a botnet on a virtual machine network.",
+        "achievements": [
+          "Understand and use Caldera for command-and-control deployment",
+          "Simulate the steps of a cyber killchain",
+          "Spread the command-and-control across the network"
+        ],
+        "gdocUrl": "https://docs.google.com/document/d/1F1tvf01nFmhPcKEDT9nv5o8P576NNxlLFXyao1M2zQ0/edit?usp=embed_facebook"
+      },
+      {
+        "title": "Gesture Control",
+        "subtitle": "Final Year Project",
+        "langage": "C++ / Qt",
+        "period": "Jan. - May 2025",
+        "team": "Solo",
+        "role": "AI, Fullstack Architect, Mobile Developer",
+        "study": "University of Sherbrooke",
+        "details": "Development of a mobile application for hand gesture recognition and triggering specific actions.",
+        "achievements": [
+          "Create and implement a CNN",
+          "Optimize for real-time constraints",
+          "Structure the code with OOP concepts and design patterns"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
+      },
+      {
+        "title": "KazaKlub",
+        "subtitle": "Internship Project",
+        "langage": "Symfony",
+        "period": "Jun. 2024 - Aug. 2024",
+        "team": "Optimum Circle Web Agency",
+        "role": "Symfony Developer",
+        "study": "",
+        "details": "Continuation of the KazaKlub project, a Symfony house-sharing application. Added many features including: creating a BackOffice for simplified DB management, redesigning the landing page, implementing a deferred data archiving system.",
+        "achievements": [
+          "Create a BackOffice for database management",
+          "Redesign the landing page",
+          "Implement a deferred data archiving system"
+        ],
+        "gdocUrl": "https://docs.google.com/document/d/19XI3AL_aBY9wk4M1GGUtz_UX3E1oDW0JkkfU5gnEVss/edit?tab=t.0",
+        "url": "https://kazaklub.com/"
+      },
+      {
+        "title": "Carpooling Application",
+        "subtitle": "Final Year Project",
+        "langage": "Vue.Js / Laravel",
+        "period": "Jan. 2024 - Jun. 2024",
+        "team": "6 people",
+        "role": "Fullstack Developer",
+        "study": "Polytech Tours",
+        "details": "Development of a PWA carpooling application for the employees of the Tours air base, in a team of 6.",
+        "achievements": [
+          "Identify explicit and implicit client needs",
+          "Write functional and technical specifications",
+          "Develop the Front-end and Back-end"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/Application-Covoiturage",
+        "figmaUrl": "https://www.figma.com/design/5bxxEzcQX61w47TbJjTQNU/Projet-Covoiturage?node-id=0-1&t=lWuIHmDCe6d79DJV-1"
+      },
+      {
+        "title": "Stock Management",
+        "subtitle": "Final Year Project",
+        "langage": "C# / .Net",
+        "period": "Feb. 2024 - Apr. 2024",
+        "team": "2 people",
+        "role": "Developer",
+        "study": "Polytech Tours",
+        "details": "Development of a Windows Forms application for managing an office supply stock with SQLite, in pairs.",
+        "achievements": [
+          "Design the architecture and the SQLite database",
+          "Develop the user interface and management features",
+          "Implement import/export of data in CSV format"
+        ],
+        "githubUrl": "https://github.com/ChakSem/Tp-Plateformes-NET"
+      },
+      {
+        "title": "Discrete Optimization",
+        "subtitle": "Research Project",
+        "langage": "C++",
+        "period": "Feb. 2024 - Apr. 2024",
+        "team": "Pair",
+        "role": "Developer",
+        "study": "Polytech Tours",
+        "details": "Design and development, in pairs, of a heuristic and a metaheuristic for solving an optimization problem.",
+        "achievements": [
+          "Imagine and design two algorithms",
+          "Develop the algorithms in OOP",
+          "Optimize these algorithms"
+        ],
+        "githubUrl": "https://github.com/ChakSem/Optimistion-Discrete"
+      },
+      {
+        "title": "Software Quality",
+        "subtitle": "Group Project",
+        "langage": "Java / Maven",
+        "period": "Nov. 2023 - Feb. 2024",
+        "team": "6 people",
+        "role": "Developer",
+        "study": "Polytech Tours",
+        "details": "Design and development of a high-quality application for managing IT equipment loans, as a team of 6.",
+        "achievements": [
+          "Analyze client needs and write functional and technical specifications",
+          "Set up a quality Java development environment",
+          "Develop the application in Java"
+        ],
+        "githubUrl": "https://github.com/nightyday/Prj_Qualit-_logiciel"
+      },
+      {
+        "title": "Hospital Simulation",
+        "subtitle": "First Independent Project",
+        "langage": "Java / NetBeans",
+        "period": "Sept. 2023 - Jan. 2024",
+        "team": "2 people",
+        "role": "Developer",
+        "study": "Polytech Tours",
+        "details": "Development in pairs of a discrete event simulation model for operating room scheduling in a hospital.",
+        "achievements": [
+          "Write and analyze specifications",
+          "Develop the simulation model",
+          "Add a graphical interface"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/ProjetSimulation"
+      },
+      {
+        "title": "Java Project",
+        "subtitle": "Tutored Project",
+        "langage": "Java / Maven",
+        "period": "Apr. 2023 - Jun. 2023",
+        "team": "Pair",
+        "role": "Developer",
+        "study": "Polytech Tours",
+        "details": "Development of two applications for managing time clocking and employees in a company environment.",
+        "achievements": [
+          "Analyze needs and define specifications for both applications (Punching Management and Punching Machine)",
+          "Set up a development environment with Eclipse and Maven, with efficient dependency and unit test management",
+          "Develop the applications ensuring smooth interaction and persistent data management via serialized files"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/-Projet-Tutore-Java"
+      }
+    ],
+    "details": "Details",
+    "achievements": "Achievements",
+    "links": "Links :"
+  },
+  "footer": {
+    "poweredBy": "Powered by Vue.Js",
+    "links": {
+      "figma": {
+        "src": "/links/figma-icon.png",
+        "alt": "FIGMA ICON",
+        "url": "https://www.figma.com/design/CBWx83JGzNZDE9X1aJSgj3/Portfolio?node-id=0-1&t=WigrOkK9nsThNNTs-1"
+      },
+      "github": {
+        "src": "/links/github-icon.png",
+        "alt": "GITHUB ICON",
+        "url": "https://github.com/ArthurCrochemore"
+      },
+      "linkedin": {
+        "src": "/links/linkedin-icon.png",
+        "alt": "LINKEDIN ICON",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/?locale=en_US"
+      },
+      "leetcode": {
+        "src": "/links/leetcode-icon.png",
+        "alt": "LEETCODE ICON",
+        "url": "https://leetcode.com/u/ArthurCrochemore/"
+      },
+      "gmail": {
+        "src": "/links/gmail-icon.png",
+        "alt": "GMAIL ICON",
+        "url": "mailto:arthur.crochem@gmail.com"
+      }
+    }
+  }
+}
