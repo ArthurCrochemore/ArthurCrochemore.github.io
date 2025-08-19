@@ -1,0 +1,47 @@
+[
+  { "src": "c-icon.png", "alt": "C ICON", "tooltip": "C" },
+  { "src": "csharp-icon.png", "alt": "CSHARP ICON", "tooltip": "C#" },
+  { "src": "dotnet-icon.png", "alt": "DOTNET ICON", "tooltip": ".NET" },
+  { "src": "cplusplus-icon.png", "alt": "CPLUSPLUS ICON", "tooltip": "C++" },
+  { "src": "qt-icon.png", "alt": "QT ICON", "tooltip": "Qt" },
+  { "src": "python-icon.png", "alt": "PYTHON ICON", "tooltip": "Python" },
+  {
+    "src": "flaskapi-icon.png",
+    "alt": "FLASKAPI ICON",
+    "tooltip": "Flask API"
+  },
+  { "src": "pytest-icon.png", "alt": "PYTEST ICON", "tooltip": "Pytest" },
+  { "src": "php-icon.png", "alt": "PHP ICON", "tooltip": "PHP" },
+  { "src": "laravel-icon.png", "alt": "LARAVEL ICON", "tooltip": "Laravel" },
+  { "src": "symfony-icon.png", "alt": "SYMFONY ICON", "tooltip": "Symfony" },
+  {
+    "src": "javascript-icon.png",
+    "alt": "JAVASCRIPT ICON",
+    "tooltip": "JavaScript"
+  },
+  { "src": "vuejs-icon.png", "alt": "VUEJS ICON", "tooltip": "Vue.js" },
+  { "src": "angular-icon.png", "alt": "ANGULAR ICON", "tooltip": "Angular" },
+  { "src": "karma-icon.png", "alt": "KARMA ICON", "tooltip": "Karma" },
+  { "src": "jasmine-icon.png", "alt": "JASMINE ICON", "tooltip": "Jasmine" },
+  { "src": "cypress-icon.png", "alt": "CYPRESS ICON", "tooltip": "Cypress" },
+  {
+    "src": "typescript-icon.png",
+    "alt": "TYPESCRIPT ICON",
+    "tooltip": "TypeScript"
+  },
+  { "src": "java-icon.png", "alt": "JAVA ICON", "tooltip": "Java" },
+  {
+    "src": "springboot-icon.png",
+    "alt": "SPRINGBOOT ICON",
+    "tooltip": "Spring Boot"
+  },
+  { "src": "windows-icon.png", "alt": "WINDOWS ICON", "tooltip": "Windows" },
+  { "src": "linux-icon.png", "alt": "LINUX ICON", "tooltip": "Linux" },
+  { "src": "figma-icon.png", "alt": "FIGMA ICON", "tooltip": "Figma" },
+  { "src": "github-icon.png", "alt": "GITHUB ICON", "tooltip": "GitHub" },
+  { "src": "gitlab-icon.png", "alt": "GITLAB ICON", "tooltip": "GitLab" },
+  { "src": "jenkins-icon.png", "alt": "JENKINS ICON", "tooltip": "Jenkins" },
+  { "src": "sonar-icon.png", "alt": "SONAR ICON", "tooltip": "Sonar" },
+  { "src": "docker-icon.png", "alt": "DOCKER ICON", "tooltip": "Docker" },
+  { "src": "azure-icon.png", "alt": "AZURE ICON", "tooltip": "Azure" }
+]
