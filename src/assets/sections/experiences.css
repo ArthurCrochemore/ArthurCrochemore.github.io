@@ -1,0 +1,110 @@
+@import "../variables.css";
+
+.experiences.component {
+  /* Box Model */
+  border-radius: 10px;
+  margin-bottom: 60px;
+
+  /* Background */
+  background-color: var(--primary-300);
+
+  .wrapper {
+    /* Position and Layout */
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+    padding: 56px;
+
+    .experiences-wrapper {
+      /* Position and Layout */
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: space-around;
+      gap: 60px;
+
+      /* Box Model */
+      width: 330px;
+
+      .experience {
+        /* Pseudo-elements */
+        &::before {
+          /* Generated Content */
+          content: "";
+          /* Position and Layout */
+          position: absolute;
+          top: 40px;
+          right: -21px;
+          /* Box Model */
+          width: 0;
+          height: 0;
+          /* Border */
+          border-style: solid;
+          border-width: 12.5px 0 12.5px 21px;
+          border-color: transparent transparent transparent var(--primary-200);
+        }
+
+        &::after {
+          /* Generated Content */
+          content: "";
+          /* Position and Layout */
+          position: absolute;
+          top: 42px;
+          right: -44px;
+          /* Box Model */
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          border: 1px solid var(--light-border);
+
+          /* Background */
+          background-color: var(--primary-200);
+        }
+      }
+    }
+
+    .divider {
+      /* Box Model */
+      width: 6px;
+      height: auto;
+      border-radius: 3px;
+
+      /* Background */
+      background-color: var(--primary-700);
+    }
+
+    @media (min-width: 1080px) {
+      & {
+        /* Box Model */
+        width: 730px;
+
+        .experiences-wrapper {
+          /* Box Model */
+          margin-top: 48px;
+          margin-bottom: 182.166px;
+
+          .experience:nth-child(even)::before {
+            left: -21px;
+            border-width: 12.5px 21px 12.5px 0;
+            border-color: transparent var(--primary-200) transparent transparent;
+          }
+          .experience:nth-child(even)::after {
+            left: -41px;
+          }
+          .experience:nth-child(even) {
+            /* Position and Layout */
+            transform: translateX(398px);
+          }
+          .experience {
+            /* Box Model */
+            margin-bottom: -134.166px;
+          }
+        }
+      }
+    }
+  }
+}

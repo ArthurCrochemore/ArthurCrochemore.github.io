@@ -1,0 +1,66 @@
+:root {
+  --font-xs: 12px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-2xl: 24px;
+  --font-3xl: 30px;
+  --font-4xl: 36px;
+  --font-5xl: 48px;
+  --font-6xl: 60px;
+  --font-7xl: 72px;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  --primary-50: #224436;
+  --primary-100: #2b4e3e;
+  --primary-200: #3a5f48;
+  --primary-300: #4d7255;
+  --primary-400: #678a6b;
+  --primary-500: #8ca48d;
+  --primary-600: #bfd2bf;
+  --primary-700: #f6faf6;
+
+  --secondary-50: #ee731a;
+  --secondary-100: #f08638;
+  --secondary-200: #f29956;
+  --secondary-300: #f4ac74;
+  --secondary-400: #f6bf92;
+  --secondary-500: #f8d0ae;
+  --secondary-600: #fae0cd;
+  --secondary-700: #fbf2ea;
+
+  --grey-50: #4a4a4a;
+  --grey-100: #6e6e6e;
+  --grey-200: #7e7e7e;
+  --grey-300: #9b9b9b;
+  --grey-400: #b6b7b6;
+  --grey-500: #c5c5c5;
+  --grey-600: #dadada;
+  --grey-700: #f0f0f0;
+
+  --background: var(--primary-700);
+
+  --text-title: var(--primary-50);
+  --text-subtitle: var(--primary-100);
+  --text: var(--primary-400);
+  --light-text-title: var(--grey-700);
+  --light-text: var(--grey-500);
+
+  --border: var(--primary-50);
+  --light-border: var(--grey-700);
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --medium-screen: 1079.9px;
+  --small-screen: 767.9px;
+
+  --big-icon: 110px;
+  --medium-icon: 38px;
+  --small-icon: 25px;
+}

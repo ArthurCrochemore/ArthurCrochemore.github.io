@@ -1,0 +1,29 @@
+@import "../variables.css";
+
+.footer.component {
+  /* Position and Layout */
+  flex-direction: column;
+  text-align: center;
+
+  /* Box Model */
+  margin-bottom: 10px;
+
+  .vue {
+    /* Box Model */
+    margin-bottom: 30px;
+  }
+
+  .links {
+    /* Position and Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    .icon {
+      /* Background */
+      cursor: pointer;
+    }
+  }
+}

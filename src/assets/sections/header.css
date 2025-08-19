@@ -1,0 +1,37 @@
+@import "../variables.css";
+
+.header.component {
+  /* Box Model */
+  height: 60px;
+  margin-bottom: 45px;
+
+  .left-header {
+    /* Box Model */
+    width: 60px;
+
+    /* Position and Layout */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .main-header {
+    /* Box Model */
+    flex: 1;
+
+    /* Position and Layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-header {
+    /* Box Model */
+    width: 60px;
+
+    /* Position and Layout */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}

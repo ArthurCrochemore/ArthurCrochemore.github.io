@@ -1,0 +1,77 @@
+@import "../variables.css";
+
+.home.component {
+  /* Position and Layout */
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+
+  /* Box Model */
+  margin-bottom: 90px;
+  h1 {
+    /* Box Model */
+    margin-bottom: 15px;
+    max-width: 400px;
+
+    /* Typography */
+    color: var(--text-title);
+    font-weight: var(--weight-bold);
+  }
+
+  h2 {
+    /* Box Model */
+    max-width: 400px;
+
+    /* Typography */
+    color: var(--text-subtitle);
+    font-weight: var(--weight-medium);
+  }
+
+  .contact {
+    /* Position and Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    /* Box Model */
+    margin-top: 60px;
+
+    #gmail-button {
+      /* Background */
+      background-color: var(--primary-300);
+
+      /* Typography */
+      color: white;
+    }
+
+    #linkedin-button {
+      /* Background */
+      background-color: #0077b5;
+
+      /* Typography */
+      color: white;
+    }
+
+    .button {
+      /* Position and Layout */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      @media (min-width: 768px) {
+        /* Box Model */
+        min-width: 160px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      /* Position and Layout */
+      flex-direction: column;
+
+      /* Box Model */
+      margin-top: 56px;
+    }
+  }
+}

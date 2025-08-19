@@ -1,0 +1,25 @@
+@import "../variables.css";
+
+.projects.component {
+  /* Position and Layout */
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  /* Box Model */
+  width: 100%;
+  border-radius: 10px;
+  padding: 90px 0px;
+  margin-bottom: 60px;
+
+  /* Clipping */
+  overflow: hidden;
+
+  /* Background */
+  background-color: var(--primary-500);
+
+  .carousel__pagination {
+    /* Display and Visibility */
+    display: none;
+  }
+}

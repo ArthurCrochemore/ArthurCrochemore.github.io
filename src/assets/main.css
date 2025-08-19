@@ -1,0 +1,298 @@
+@import "./variables.css";
+
+body {
+  /* Background */
+  background-color: var(--background);
+
+  /* Typography */
+  font-family: "Ubuntu", sans-serif;
+
+  .modal {
+    /* Position and Layout */
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+
+    /* Display and Visibility */
+    display: flex;
+
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+
+    /* Background */
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  #app {
+    /* Box Model */
+    width: 100%;
+
+    #sections {
+      /* Position and Layout */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      /* Box Model */
+      margin: 0 auto;
+      max-width: 900px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    /* Box Model */
+    margin: 0;
+  }
+}
+
+.component {
+  /* Position and Layout */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  /* Box Model */
+  width: 100%;
+  max-width: 900px;
+}
+
+.button {
+  /* Box Model */
+  border-radius: 10px;
+  height: auto;
+  padding: 6px 20px;
+
+  /* Background */
+  background-color: var(--grey-700);
+  cursor: pointer;
+
+  span {
+    /* Typography */
+    font-size: var(--font-md);
+    font-weight: var(--weight-bold);
+  }
+
+  /* Nested Rules */
+  &:hover {
+    /* Background */
+    background-color: var(--grey-600);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Box Model */
+  margin: 0;
+
+  /* Typography */
+  color: var(--text-title);
+}
+
+p {
+  /* Typography */
+  color: var(--text);
+  line-height: 1;
+}
+
+a {
+  /* Typography */
+  color: var(--text);
+}
+
+.h1 {
+  /* Typography */
+  font-size: var(--font-4xl);
+}
+
+.h2 {
+  /* Typography */
+  font-size: var(--font-3xl);
+}
+
+.h3 {
+  /* Typography */
+  font-size: var(--font-2xl);
+}
+
+.xlarge {
+  /* Typography */
+  font-size: 22px;
+}
+
+.large {
+  /* Typography */
+  font-size: var(--font-lg);
+}
+
+.medium {
+  /* Typography */
+  font-size: var(--font-md);
+}
+
+.small {
+  /* Typography */
+  font-size: var(--font-sm);
+}
+
+.xsmall {
+  /* Typography */
+  font-size: var(--font-xs);
+}
+
+.icon-wrapper {
+  /* Position and Layout */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  .icon {
+    /* Box Model */
+    object-fit: contain;
+  }
+
+  &.xsmall-icons {
+    .icon {
+      /* Box Model */
+      max-width: 14px;
+      max-height: 14px;
+    }
+  }
+
+  &.small-icons {
+    /* Position and Layout */
+    gap: 25px;
+
+    .icon {
+      /* Box Model */
+      max-width: 25px;
+      max-height: 25px;
+    }
+  }
+
+  &.medium-icons {
+    /* Position and Layout */
+    gap: 33px;
+
+    .icon {
+      /* Box Model */
+      max-width: 38px;
+      max-height: 38px;
+    }
+  }
+
+  &.big-icons {
+    /* Position and Layout */
+    gap: 40px;
+
+    .icon {
+      /* Box Model */
+      max-width: 110px;
+      max-height: 110px;
+    }
+  }
+}
+
+@media (max-width: 1079px) {
+  .component {
+    /* Box Model */
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  body #app #sections {
+    /* Box Model */
+    width: calc(100% - 16px);
+  }
+
+  .button {
+    /* Box Model */
+    padding: 4px 15px;
+
+    span {
+      /* Typography */
+      font-size: var(--font-sm);
+    }
+  }
+
+  .h1 {
+    /* Typography */
+    font-size: var(--font-3xl);
+  }
+
+  .h2 {
+    /* Typography */
+    font-size: var(--font-2xl);
+  }
+
+  .h3 {
+    /* Typography */
+    font-size: var(--font-xl);
+  }
+
+  .xlarge {
+    /* Typography */
+    font-size: 19px;
+  }
+
+  .large {
+    /* Typography */
+    font-size: var(--font-md);
+  }
+
+  .medium {
+    /* Typography */
+    font-size: var(--font-sm);
+  }
+
+  .small {
+    /* Typography */
+    font-size: var(--font-xs);
+  }
+
+  .icon-wrapper {
+    &.small-icons {
+      /* Position and Layout */
+      gap: 22px;
+
+      .icon {
+        /* Box Model */
+        max-width: 22px;
+        max-height: 22px;
+      }
+    }
+
+    &.medium-icons {
+      /* Position and Layout */
+      gap: 29px;
+
+      .icon {
+        /* Box Model */
+        max-width: 33px;
+        max-height: 33px;
+      }
+    }
+
+    &.big-icons {
+      /* Position and Layout */
+      gap: 30px;
+
+      .icon {
+        /* Box Model */
+        max-width: 90px;
+        max-height: 90px;
+      }
+    }
+  }
+}
