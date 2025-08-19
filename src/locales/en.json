@@ -206,6 +206,22 @@
     "detail": "Detail",
     "list": [
       {
+        "title": "Gesture Control",
+        "subtitle": "Final Year Project",
+        "langage": "C++ / Qt",
+        "period": "Jan. - May 2025",
+        "team": "Independently",
+        "role": "Mobile Developer",
+        "study": "University of Sherbrooke",
+        "details": "Development of a mobile application for hand gesture recognition and triggering specific actions.",
+        "achievements": [
+          "Create and implement a CNN",
+          "Optimize for real-time constraints",
+          "Structure the code with OOP concepts and design patterns"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
+      },
+      {
         "title": "Cybersecurity",
         "subtitle": "Research Project",
         "langage": "",
@@ -222,29 +238,13 @@
         "gdocUrl": "https://docs.google.com/document/d/1F1tvf01nFmhPcKEDT9nv5o8P576NNxlLFXyao1M2zQ0/edit?usp=embed_facebook"
       },
       {
-        "title": "Gesture Control",
-        "subtitle": "Final Year Project",
-        "langage": "C++ / Qt",
-        "period": "Jan. - May 2025",
-        "team": "Solo",
-        "role": "AI, Fullstack Architect, Mobile Developer",
-        "study": "University of Sherbrooke",
-        "details": "Development of a mobile application for hand gesture recognition and triggering specific actions.",
-        "achievements": [
-          "Create and implement a CNN",
-          "Optimize for real-time constraints",
-          "Structure the code with OOP concepts and design patterns"
-        ],
-        "githubUrl": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
-      },
-      {
         "title": "KazaKlub",
         "subtitle": "Internship Project",
         "langage": "Symfony",
         "period": "Jun. 2024 - Aug. 2024",
         "team": "Optimum Circle Web Agency",
         "role": "Symfony Developer",
-        "study": "",
+        "study": "Optimum Circle",
         "details": "Continuation of the KazaKlub project, a Symfony house-sharing application. Added many features including: creating a BackOffice for simplified DB management, redesigning the landing page, implementing a deferred data archiving system.",
         "achievements": [
           "Create a BackOffice for database management",
@@ -256,30 +256,30 @@
       },
       {
         "title": "Carpooling Application",
-        "subtitle": "Final Year Project",
+        "subtitle": "Semester project",
         "langage": "Vue.Js / Laravel",
         "period": "Jan. 2024 - Jun. 2024",
         "team": "6 people",
         "role": "Fullstack Developer",
         "study": "Polytech Tours",
-        "details": "Development of a PWA carpooling application for the employees of the Tours air base, in a team of 6.",
+        "details": "First project for a real client. Creation of a PWA carpooling application for the employees of the Tours air base.",
         "achievements": [
           "Identify explicit and implicit client needs",
           "Write functional and technical specifications",
           "Develop the Front-end and Back-end"
         ],
-        "githubUrl": "https://github.com/ArthurCrochemore/Application-Covoiturage",
-        "figmaUrl": "https://www.figma.com/design/5bxxEzcQX61w47TbJjTQNU/Projet-Covoiturage?node-id=0-1&t=lWuIHmDCe6d79DJV-1"
+        "figmaUrl": "https://www.figma.com/design/5bxxEzcQX61w47TbJjTQNU/Projet-Covoiturage?node-id=0-1&t=lWuIHmDCe6d79DJV-1",
+        "githubUrl": "https://github.com/ArthurCrochemore/Application-Covoiturage"
       },
       {
         "title": "Stock Management",
-        "subtitle": "Final Year Project",
+        "subtitle": "C# discovery lab project",
         "langage": "C# / .Net",
         "period": "Feb. 2024 - Apr. 2024",
         "team": "2 people",
         "role": "Developer",
         "study": "Polytech Tours",
-        "details": "Development of a Windows Forms application for managing an office supply stock with SQLite, in pairs.",
+        "details": "Lab project to discover the C# language and Windows Forms environment. Developed in pairs: an application for managing an office supply stock with SQLite.",
         "achievements": [
           "Design the architecture and the SQLite database",
           "Develop the user interface and management features",
@@ -289,61 +289,62 @@
       },
       {
         "title": "Discrete Optimization",
-        "subtitle": "Research Project",
+        "subtitle": "AI - Optimization project",
         "langage": "C++",
-        "period": "Feb. 2024 - Apr. 2024",
-        "team": "Pair",
+        "period": "Feb. 2024 - May 2024",
+        "team": "2 people",
         "role": "Developer",
         "study": "Polytech Tours",
-        "details": "Design and development, in pairs, of a heuristic and a metaheuristic for solving an optimization problem.",
+        "details": "Project as part of the Artificial Intelligence specialization: design and development of a heuristic and a metaheuristic to solve a complex tourist route optimization problem.",
         "achievements": [
-          "Imagine and design two algorithms",
-          "Develop the algorithms in OOP",
-          "Optimize these algorithms"
+          "Design and conceive two algorithms adapted to the problem (heuristic and metaheuristic)",
+          "Develop the solutions in object-oriented C++",
+          "Optimize and compare the performance of the algorithms"
         ],
         "githubUrl": "https://github.com/ChakSem/Optimistion-Discrete"
       },
       {
         "title": "Software Quality",
-        "subtitle": "Group Project",
+        "subtitle": "Software Quality Project",
         "langage": "Java / Maven",
         "period": "Nov. 2023 - Feb. 2024",
         "team": "6 people",
         "role": "Developer",
         "study": "Polytech Tours",
-        "details": "Design and development of a high-quality application for managing IT equipment loans, as a team of 6.",
+        "details": "Project supervised by two professionals, aiming to integrate software quality practices in the development of an IT equipment loan management application.",
         "achievements": [
           "Analyze client needs and write functional and technical specifications",
           "Set up a quality Java development environment",
           "Develop the application in Java"
         ],
-        "githubUrl": "https://github.com/nightyday/Prj_Qualit-_logiciel"
+        "githubUrl": "https://github.com/nightyday/Prj_Qualit-_logiciel",
+        "gdocUrl": "https://docs.google.com/spreadsheets/d/1Aa0BdMhoaVJFotcBa1pVOvBiogwaXXEsndQnjovUkjk/edit?usp=sharing"
       },
       {
         "title": "Hospital Simulation",
-        "subtitle": "First Independent Project",
+        "subtitle": "First independent project",
         "langage": "Java / NetBeans",
         "period": "Sept. 2023 - Jan. 2024",
         "team": "2 people",
         "role": "Developer",
         "study": "Polytech Tours",
-        "details": "Development in pairs of a discrete event simulation model for operating room scheduling in a hospital.",
+        "details": "Open project in pairs: development of a discrete event simulation model for operating room scheduling in a hospital.",
         "achievements": [
-          "Write and analyze specifications",
-          "Develop the simulation model",
+          "Design the project and write the specifications",
+          "Develop the simulation engine",
           "Add a graphical interface"
         ],
         "githubUrl": "https://github.com/ArthurCrochemore/ProjetSimulation"
       },
       {
         "title": "Java Project",
-        "subtitle": "Tutored Project",
+        "subtitle": "Tutored project",
         "langage": "Java / Maven",
         "period": "Apr. 2023 - Jun. 2023",
-        "team": "Pair",
+        "team": "4 people",
         "role": "Developer",
         "study": "Polytech Tours",
-        "details": "Development of two applications for managing time clocking and employees in a company environment.",
+        "details": "First real tutored project: development of two applications for managing time clocking and employees in a company environment.",
         "achievements": [
           "Analyze needs and define specifications for both applications (Punching Management and Punching Machine)",
           "Set up a development environment with Eclipse and Maven, with efficient dependency and unit test management",

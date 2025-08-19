@@ -46,7 +46,7 @@
     ],
     "monthsShort": [
       "Jan.",
-      "Fév.",
+      "Févr.",
       "Mars",
       "Avr.",
       "Mai",
@@ -64,7 +64,6 @@
         "subtitle": "Stage de fin d'études",
         "startDate": "2025-05",
         "endDate": "2025-11",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/",
         "company": "Amundi Technology, Montréal (Canada)",
         "location": "Montréal, Canada",
         "contractType": "Stage",
@@ -82,14 +81,13 @@
           "Développement de suites de tests end-to-end robustes et maintenables",
           "Migration de la documentation de l’application vers une base de données centralisée"
         ],
-        "link": "https://www.amundi-ee.com/entr/"
+        "url": "https://www.amundi-ee.com/entr/"
       },
       "experience2": {
         "title": "Optimum Circle",
         "subtitle": "Stage assistant ingénieur",
         "startDate": "2024-06",
         "endDate": "2024-08",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/",
         "company": "Optimum Circle, Caen (France)",
         "location": "Caen, France",
         "contractType": "Stage",
@@ -107,14 +105,13 @@
           "Optimisation SEO de l’application"
         ],
         "context": "Dans le cadre du projet KazaKlub; une application web en Symfony/Php de partage de maison entre amis.",
-        "link": "https://optimumcircle.com/"
+        "url": "https://optimumcircle.com/"
       },
       "experience3": {
         "title": "Réseaux Environnements",
         "subtitle": "Stage ouvrier",
         "startDate": "2021-06",
         "endDate": "2021-07",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/",
         "company": "Réseaux Environnement",
         "location": "Bréauté, France",
         "contractType": "Stage",
@@ -125,7 +122,7 @@
         ],
         "achievementsTitle": "Réalisations marquantes",
         "achievements": [],
-        "link": "https://www.reseaux-environnement.com/"
+        "url": "https://www.reseaux-environnement.com/"
       }
     },
     "academic": {
@@ -134,7 +131,6 @@
         "subtitle": "Maîtrise en informatique",
         "startDate": "2025-08",
         "endDate": "2025-12",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/",
         "diploma": "Master",
         "location": "Sherbrooke, Canada",
         "contentTitle": "Principaux cours",
@@ -151,14 +147,13 @@
           "Application de méthodes avancées de génie logiciel",
           "Prise en main de nouveaux outils (Azure)"
         ],
-        "link": "https://www.usherbrooke.ca/admission/programme/654/maitrise-en-informatique/"
+        "url": "https://www.usherbrooke.ca/admission/programme/654/maitrise-en-informatique/"
       },
       "experience2": {
         "title": "Polytech Tours",
         "subtitle": "Cycle ingénieur",
         "startDate": "2022-09",
         "endDate": "2025-12",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/",
         "diploma": "Diplome d'ingénieur",
         "location": "Tours, France",
         "contentTitle": "Thèmes principaux",
@@ -178,14 +173,13 @@
           "Analyse de données et reconnaissance de formes",
           "Administration systèmes et réseaux"
         ],
-        "link": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique"
+        "url": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique"
       },
       "experience3": {
         "title": "Polytech Lille",
         "subtitle": "Peip A",
         "startDate": "2020-09",
         "endDate": "2022-07",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/",
         "diploma": "Classe préparatoire intégrée",
         "location": "Villeneuve d'Ascq, France",
         "contentTitle": "Thèmes principaux",
@@ -197,7 +191,7 @@
           "Conception et manipulation de bases de données",
           "Capacité d’analyse et de modélisation"
         ],
-        "link": "https://www.polytech-lille.fr/polytech-apres-le-bac/"
+        "url": "https://www.polytech-lille.fr/polytech-apres-le-bac/"
       }
     },
     "links": "Liens :"
@@ -205,6 +199,22 @@
   "projects": {
     "detail": "Détail",
     "list": [
+      {
+        "title": "Commande Gestuelle",
+        "subtitle": "Projet de fin d'études",
+        "langage": "C++ / Qt",
+        "period": "janv. - mai 2025",
+        "team": "En autonomie",
+        "role": "Développeur mobile",
+        "study": "Université de Sherbrooke",
+        "details": "Création d'une application mobile pour la reconnaissance de gestes manuels et le déclenchement d'actions spécifiques.",
+        "achievements": [
+          "Créer et implémenter un CNN",
+          "Optimiser pour respecter des contraintes de temps réel",
+          "Structurer le code avec des concepts OO et des design patterns"
+        ],
+        "githubUrl": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
+      },
       {
         "title": "Cybersécurité",
         "subtitle": "Projet de recherche",
@@ -222,29 +232,13 @@
         "gdocUrl": "https://docs.google.com/document/d/1F1tvf01nFmhPcKEDT9nv5o8P576NNxlLFXyao1M2zQ0/edit?usp=sharing"
       },
       {
-        "title": "Commande Gestuelle",
-        "subtitle": "Projet de fin d'études",
-        "langage": "C++ / Qt",
-        "period": "janv. - mai 2025",
-        "team": "Solo",
-        "role": "IA, Architecte Fullstack, Développeur mobile",
-        "study": "Université de Sherbrooke",
-        "details": "Développement d'une application mobile pour la reconnaissance de gestes manuels et le déclenchement d'actions spécifiques.",
-        "achievements": [
-          "Créer et implémenter un CNN",
-          "Optimiser pour le temps réel",
-          "Structurer le code avec des concepts OO et des design patterns"
-        ],
-        "githubUrl": "https://github.com/ArthurCrochemore/Projet-Commande-Gestuelle-Mobile"
-      },
-      {
         "title": "KazaKlub",
         "subtitle": "Projet de stage",
         "langage": "Symfony",
         "period": "juin 2024 - août 2024",
         "team": "Agence Web Optimum Circle",
-        "role": "Développeur Symfony",
-        "study": "",
+        "role": "Développeur Fullstack",
+        "study": "Optimum Circle",
         "details": "Poursuite du projet KazaKlub, application Symfony de partage de maison. Ajout de nombreuses fonctionnalités : création d'un BackOffice pour la gestion de la base de données, refonte de la landing page, archivage différé des données.",
         "achievements": [
           "Créer un BackOffice pour la gestion de la base de données",
@@ -256,13 +250,13 @@
       },
       {
         "title": "Application Covoiturage",
-        "subtitle": "Projet de fin d'études",
+        "subtitle": "Projet de semestre",
         "langage": "Vue.Js / Laravel",
         "period": "janv. 2024 - juin 2024",
         "team": "6 personnes",
         "role": "Développeur Fullstack",
         "study": "Polytech Tours",
-        "details": "Développement d'une application PWA de covoiturage pour les employés de la base aérienne de Tours, en équipe de 6.",
+        "details": "Premier projet pour un client concret. Création d’une application PWA de covoiturage pour les employés de la base aérienne de Tours.",
         "achievements": [
           "Identifier les besoins explicites et implicites du client",
           "Rédiger les spécifications fonctionnelles et techniques",
@@ -273,13 +267,13 @@
       },
       {
         "title": "Gestion de Stock",
-        "subtitle": "Projet de fin d'études",
+        "subtitle": "Projet de TP découverte C#",
         "langage": "C# / .Net",
         "period": "févr. 2024 - avr. 2024",
         "team": "2 personnes",
-        "role": "Développeur",
+        "role": "Développeur Logiciel",
         "study": "Polytech Tours",
-        "details": "Développement en binôme d'une application Windows Forms pour la gestion d'un stock de fournitures de bureau avec SQLite.",
+        "details": "Développement en binôme d'une application Windows Forms pour la gestion d’un stock de fournitures de bureau avec SQLite.",
         "achievements": [
           "Concevoir l'architecture et la base de données SQLite",
           "Développer l'interface utilisateur et les fonctionnalités de gestion",
@@ -288,20 +282,37 @@
         "githubUrl": "https://github.com/ChakSem/Tp-Plateformes-NET"
       },
       {
+        "title": "Optimisation Discrète",
+        "subtitle": "Projet IA - Optimisation",
+        "langage": "C++",
+        "period": "févr. 2024 - mai 2024",
+        "team": "2 personnes",
+        "role": "Développeur",
+        "study": "Polytech Tours",
+        "details": "Projet dans le cadre de la spécialité Intelligence Artificielle : conception et développement d'une heuristique et d'une méta-heuristique pour résoudre un problème complexe d'optimisation d'itinéraires touristiques.",
+        "achievements": [
+          "Réfléchir et concevoir deux algorithmes adaptés au problème (heuristique et méta-heuristique)",
+          "Développer les solutions en C++ orienté objet",
+          "Optimiser et comparer les performances des algorithmes"
+        ],
+        "githubUrl": "https://github.com/ChakSem/Optimistion-Discrete"
+      },
+      {
         "title": "Qualité Logicielle",
-        "subtitle": "Projet de groupe",
+        "subtitle": "Projet Qualité Logicielle",
         "langage": "Java / Maven",
         "period": "nov. 2023 - févr. 2024",
         "team": "6 personnes",
-        "role": "Développeur",
+        "role": "Développeur Logiciel",
         "study": "Polytech Tours",
-        "details": "Conception et développement d'une application de haute qualité pour la gestion des emprunts de matériel informatique, dans une équipe de 6.",
+        "details": "Projet encadré par deux professionnels, visant à concevoir et développer une application de haute qualité pour la gestion des emprunts de matériel informatique.",
         "achievements": [
           "Analyser les besoins client et rédiger les spécifications fonctionnelles et techniques",
-          "Mettre en place un environnement de développement Java de qualité",
+          "Mettre en place un environnement pour du développement de qualité",
           "Développer l'application en Java"
         ],
-        "githubUrl": "https://github.com/nightyday/Prj_Qualit-_logiciel"
+        "githubUrl": "https://github.com/nightyday/Prj_Qualit-_logiciel",
+        "gdocUrl": "https://docs.google.com/spreadsheets/d/1Aa0BdMhoaVJFotcBa1pVOvBiogwaXXEsndQnjovUkjk/edit?usp=sharing"
       },
       {
         "title": "Simulation Hopital",
@@ -309,9 +320,9 @@
         "langage": "Java / NetBeans",
         "period": "sept. 2023 - janv. 2024",
         "team": "2 personnes",
-        "role": "Développeur",
+        "role": "Développeur Logiciel",
         "study": "Polytech Tours",
-        "details": "Développement en binôme d'un modèle de simulation à événements discrets pour l'affectation des salles d'opération d'un hôpital.",
+        "details": "Développement d'un modèle de simulation à événements discrets pour l'affectation des salles d'opération d'un hôpital.",
         "achievements": [
           "Concevoir le projet et rédiger les spécifications",
           "Développer le moteur de simulation",
@@ -324,10 +335,10 @@
         "subtitle": "Projet tutoré",
         "langage": "Java / Maven",
         "period": "avr. 2023 - juin 2023",
-        "team": "Binôme",
-        "role": "Développeur",
+        "team": "4 personnes",
+        "role": "Développeur Logiciel",
         "study": "Polytech Tours",
-        "details": "Développement de deux applications pour la gestion des pointages et des employés dans un environnement d'entreprise.",
+        "details": "Premier vrai projet encadré : développement de deux applications pour la gestion des pointages et des employés dans un environnement d'entreprise.",
         "achievements": [
           "Analyser les besoins et définir les spécifications des deux applications (Punching Management et Punching Machine)",
           "Mettre en place un environnement de développement Eclipse/Maven avec gestion efficace des dépendances et des tests unitaires",
