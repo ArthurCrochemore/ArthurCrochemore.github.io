@@ -1,0 +1,27 @@
+[
+  {
+    "src": "figma-icon.png",
+    "alt": "FIGMA ICON",
+    "url": "https://www.figma.com/design/CBWx83JGzNZDE9X1aJSgj3/Portfolio?node-id=0-1&t=WigrOkK9nsThNNTs-1"
+  },
+  {
+    "src": "github-icon.png",
+    "alt": "GITHUB ICON",
+    "url": "https://github.com/ArthurCrochemore"
+  },
+  {
+    "src": "linkedin-icon.png",
+    "alt": "LINKEDIN ICON",
+    "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203"
+  },
+  {
+    "src": "leetcode-icon.png",
+    "alt": "LEETCODE ICON",
+    "url": "https://leetcode.com/u/ArthurCrochemore/"
+  },
+  {
+    "src": "instagram-icon.png",
+    "alt": "INSTAGRAM ICON",
+    "url": "https://www.instagram.com/arthur_croc/"
+  }
+]
