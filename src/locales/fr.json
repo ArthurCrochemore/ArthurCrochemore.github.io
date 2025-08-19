@@ -70,13 +70,17 @@
         "contractType": "Stage",
         "missionsTitle": "Missions principales",
         "missions": [
-          "Mettre en place des tests automatisés front/back",
-          "Développer des fonctionnalités : SSE, parsing, modification de données",
+          "Développer et tester en environnement Fullstack (Spring Boot / Angular)",
+          "Concevoir et maintenir des fonctionnalités",
           "Collaborer avec des équipes distribuées (Montréal, Paris, Dublin)"
         ],
         "achievementsTitle": "Réalisations marquantes",
         "achievements": [
-          "Création d'une librairie Cypress adaptée au framework frontend d'Amundi"
+          "Création d’une librairie personnalisée pour les tests end-to-end Cypress",
+          "Automatisation complète des tests backend via Jenkins",
+          "Mise en place de la stack de tests unitaires Angular (Jasmine + Karma)",
+          "Développement de suites de tests end-to-end robustes et maintenables",
+          "Migration de la documentation de l’application vers une base de données centralisée"
         ],
         "link": "https://www.amundi-ee.com/entr/"
       },
@@ -91,14 +95,16 @@
         "contractType": "Stage",
         "missionsTitle": "Missions principales",
         "missions": [
+          "Concevoir de nouvelles fonctionnalités Fullstack (Symfony)",
           "Effectuer la refonte graphique",
-          "Développer des outils Back-end",
-          "Mettre à jour la base de données"
+          "Mettre à jour et maintenir la base de données",
+          "Améliorer le SEO"
         ],
         "achievementsTitle": "Réalisations marquantes",
         "achievements": [
-          "Nouvelle landing page",
-          "Mise en place d'un backoffice"
+          "Création d’une nouvelle landing page",
+          "Développement d’un backoffice fonctionnel",
+          "Optimisation SEO de l’application"
         ],
         "context": "Dans le cadre du projet KazaKlub; une application web en Symfony/Php de partage de maison entre amis.",
         "link": "https://optimumcircle.com/"
@@ -136,10 +142,15 @@
           "Conception de systèmes temps réel",
           "Approches orientées objets",
           "Gestion de projets",
-          "Technique d'apprentissage"
+          "Technique d'apprentissage (Machine Learning)"
         ],
         "achievementsTitle": "Compétences acquises",
-        "achievements": ["Oriente Objet avancée"],
+        "achievements": [
+          "Développement d’applications temps réel",
+          "Mise en place de tests unitaires",
+          "Application de méthodes avancées de génie logiciel",
+          "Prise en main de nouveaux outils (Azure)"
+        ],
         "link": "https://www.usherbrooke.ca/admission/programme/654/maitrise-en-informatique/"
       },
       "experience2": {
@@ -152,13 +163,21 @@
         "location": "Tours, France",
         "contentTitle": "Thèmes principaux",
         "content": [
-          "Genie Logiciel",
-          "Approches orientées objets",
-          "Gestion de projets",
-          "Technique d'apprentissage"
+          "Programmation et qualité logicielle",
+          "Bases de données et systèmes d’information",
+          "Systèmes et réseaux",
+          "Optimisation et algorithmique",
+          "Analyse et science des données"
         ],
         "achievementsTitle": "Compétences acquises",
-        "achievements": ["Conception"],
+        "achievements": [
+          "Développement logiciel robuste et orienté qualité",
+          "Modélisation et gestion de bases de données",
+          "Développement de systèmes distribués",
+          "Conception d’algorithmes d’optimisation",
+          "Analyse de données et reconnaissance de formes",
+          "Administration systèmes et réseaux"
+        ],
         "link": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique"
       },
       "experience3": {
@@ -172,7 +191,12 @@
         "contentTitle": "Thèmes principaux",
         "content": ["Mathématiques", "Physique", "Informatique"],
         "achievementsTitle": "Compétences acquises",
-        "achievements": [],
+        "achievements": [
+          "Solide bagage scientifique en mathématiques et physique",
+          "Maîtrise des bases du développement en Python et web",
+          "Conception et manipulation de bases de données",
+          "Capacité d’analyse et de modélisation"
+        ],
         "link": "https://www.polytech-lille.fr/polytech-apres-le-bac/"
       }
     },

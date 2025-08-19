@@ -61,56 +61,71 @@
     "professional": {
       "experience1": {
         "title": "Amundi Montreal",
-        "subtitle": "Final Internship",
+        "subtitle": "Final internship",
         "startDate": "2025-05",
         "endDate": "2025-11",
         "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
         "company": "Amundi Technology, Montreal (Canada)",
         "location": "Montreal, Canada",
+        "contractType": "Internship",
         "missionsTitle": "Main missions",
         "missions": [
-          "Set up automated front/back tests",
-          "Develop features: SSE, parsing, data modification",
+          "Develop and test in a Fullstack environment (Spring Boot / Angular)",
+          "Design and maintain features",
           "Collaborate with distributed teams (Montreal, Paris, Dublin)"
         ],
         "achievementsTitle": "Key achievements",
         "achievements": [
-          "Created a Cypress library adapted to Amundi's frontend framework"
-        ]
+          "Created a custom library for Cypress end-to-end tests",
+          "Fully automated backend tests via Jenkins",
+          "Set up Angular unit testing stack (Jasmine + Karma)",
+          "Developed robust and maintainable end-to-end test suites",
+          "Migrated application documentation to a centralized database"
+        ],
+        "link": "https://www.amundi-ee.com/entr/"
       },
       "experience2": {
         "title": "Optimum Circle",
-        "subtitle": "Assistant Engineer Internship",
+        "subtitle": "Assistant engineer internship",
         "startDate": "2024-06",
         "endDate": "2024-08",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/",
         "company": "Optimum Circle, Caen (France)",
         "location": "Caen, France",
+        "contractType": "Internship",
         "missionsTitle": "Main missions",
         "missions": [
+          "Design new Fullstack features (Symfony)",
           "Redesign the UI",
-          "Develop backend tools",
-          "Update the database"
+          "Update and maintain the database",
+          "Improve SEO"
         ],
         "achievementsTitle": "Key achievements",
-        "achievements": ["New landing page", "Set up a backoffice"],
-        "context": "As part of the KazaKlub project; a Symfony/PHP web application for house sharing among friends."
+        "achievements": [
+          "Created a new landing page",
+          "Developed a functional backoffice",
+          "SEO optimization of the application"
+        ],
+        "context": "As part of the KazaKlub project; a Symfony/PHP web application for house sharing among friends.",
+        "link": "https://optimumcircle.com/"
       },
       "experience3": {
         "title": "Réseaux Environnements",
-        "subtitle": "Worker Internship",
+        "subtitle": "Worker internship",
         "startDate": "2021-06",
         "endDate": "2021-07",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/?locale=en_US",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/experience/",
         "company": "Réseaux Environnement",
         "location": "Bréauté, France",
+        "contractType": "Internship",
         "missionsTitle": "Main missions",
         "missions": [
           "Observe and assist an electrician",
           "Participate in a trenching project with a team"
         ],
         "achievementsTitle": "Key achievements",
-        "achievements": []
+        "achievements": [],
+        "link": "https://www.reseaux-environnement.com/"
       }
     },
     "academic": {
@@ -119,7 +134,7 @@
         "subtitle": "Master's in Computer Science",
         "startDate": "2025-08",
         "endDate": "2025-12",
-        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
+        "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/",
         "diploma": "Master",
         "location": "Sherbrooke, Canada",
         "contentTitle": "Main courses",
@@ -127,14 +142,20 @@
           "Real-time systems design",
           "Object-oriented approaches",
           "Project management",
-          "Learning techniques"
+          "Learning techniques (Machine Learning)"
         ],
         "achievementsTitle": "Acquired skills",
-        "achievements": []
+        "achievements": [
+          "Development of real-time applications",
+          "Implementation of unit tests",
+          "Application of advanced software engineering methods",
+          "Learning new tools (Azure)"
+        ],
+        "link": "https://www.usherbrooke.ca/admission/programme/654/maitrise-en-informatique/"
       },
       "experience2": {
         "title": "Polytech Tours",
-        "subtitle": "Engineering Cycle",
+        "subtitle": "Engineering cycle",
         "startDate": "2022-09",
         "endDate": "2025-12",
         "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
@@ -142,26 +163,41 @@
         "location": "Tours, France",
         "contentTitle": "Main topics",
         "content": [
-          "Software engineering",
-          "Object-oriented approaches",
-          "Project management",
-          "Learning techniques"
+          "Programming and software quality",
+          "Databases and information systems",
+          "Systems and networks",
+          "Optimization and algorithms",
+          "Data analysis and science"
         ],
         "achievementsTitle": "Acquired skills",
-        "achievements": []
+        "achievements": [
+          "Robust and quality-oriented software development",
+          "Database modeling and management",
+          "Development of distributed systems",
+          "Design of optimization algorithms",
+          "Data analysis and pattern recognition",
+          "Systems and network administration"
+        ],
+        "link": "https://polytech.univ-tours.fr/version-francaise/navigation/cycle-ingenieur/informatique"
       },
       "experience3": {
         "title": "Polytech Lille",
-        "subtitle": "Peip Lille",
+        "subtitle": "Peip A",
         "startDate": "2020-09",
         "endDate": "2022-07",
         "url": "https://www.linkedin.com/in/arthur-crochemore-3049b2203/details/education/?locale=en_US",
         "diploma": "Integrated preparatory class",
         "location": "Villeneuve d'Ascq, France",
         "contentTitle": "Main topics",
-        "content": [],
+        "content": ["Mathematics", "Physics", "Computer Science"],
         "achievementsTitle": "Acquired skills",
-        "achievements": []
+        "achievements": [
+          "Strong scientific background in mathematics and physics",
+          "Mastery of Python and web development basics",
+          "Database design and manipulation",
+          "Analytical and modeling skills"
+        ],
+        "link": "https://www.polytech-lille.fr/polytech-apres-le-bac/"
       }
     },
     "links": "Links :"
